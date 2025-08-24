@@ -27,7 +27,6 @@ function App() {
 
   return (
     <header>
-      <h1>My CRUD App</h1>
       <div>
         <input
           placeholder="12345678901"
