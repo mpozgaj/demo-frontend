@@ -1,4 +1,3 @@
-import './App.css';
 import { useState } from 'react';
 
 function App() {
@@ -50,16 +49,20 @@ function App() {
         <form action={createCard}>
           <label htmlFor="oib">OIB: </label>
           <input name="oib" placeholder="12345678901" />
+          <br/>
           <label htmlFor="firstName">Name: </label>
           <input name="firstName" placeholder="Tom" />
+          <br/>
           <label htmlFor="lastName">Surname: </label>
           <input name="lastName" placeholder="Smith" />
+          <br/>
           <label htmlFor="status">Card status: </label>
           <select id="status" name="status">
             <option value="PENDING">Pending</option>
             <option value="APPROVED">Approved</option>
             <option value="REJECTED">Rejected</option>
           </select>
+          <br/>
           <button>Send request</button>
         </form>
       </div>
